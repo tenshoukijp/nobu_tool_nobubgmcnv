@@ -1,0 +1,32 @@
+﻿  Performing Custom Build Step on configMS
+          1 個のファイルをコピーしました。
+  Assembling choose_table...
+  Assembling cpu_feat...
+  Assembling fft...
+  Assembling fft3dn...
+  Assembling fftfpu...
+  Assembling fftsse...
+  Assembling ffttbl...
+  Assembling scalar...
+  bitstream.c
+  encoder.c
+  fft.c
+  gain_analysis.c
+  id3tag.c
+  lame.c
+  mpglib_interface.c
+  newmdct.c
+  presets.c
+  psymodel.c
+  quantize.c
+  quantize_pvt.c
+  reservoir.c
+  set_get.c
+  takehiro.c
+  util.c
+  vbrquantize.c
+  VbrTag.c
+  version.c
+  tables.c
+  xmm_quantize_sub.c
+  vc9_libmp3lame.vcxproj -> C:\usr\koei\tenshouki95\dllwrap\NobuBgmConvert\NobuBgmCnvLame\vc_solution\..\output\Release\libmp3lame-static.lib

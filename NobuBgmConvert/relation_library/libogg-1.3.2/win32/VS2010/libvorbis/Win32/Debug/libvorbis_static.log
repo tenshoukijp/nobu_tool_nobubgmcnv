@@ -1,0 +1,241 @@
+﻿2015/05/19 12:31:23 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\2013\libogg-1.3.2\win32\VS2010\libvorbis\libvorbis_static.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\usr\msvs2013\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\..\libogg\include /I"..\..\..\..\libogg-1.2.0\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBVORBIS_EXPORTS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\lib\analysis.c ..\..\..\lib\bitrate.c ..\..\..\lib\block.c ..\..\..\lib\codebook.c ..\..\..\lib\envelope.c ..\..\..\lib\floor0.c ..\..\..\lib\floor1.c ..\..\..\lib\info.c ..\..\..\lib\lookup.c ..\..\..\lib\lpc.c ..\..\..\lib\lsp.c ..\..\..\lib\mapping0.c ..\..\..\lib\mdct.c ..\..\..\lib\psy.c ..\..\..\lib\registry.c ..\..\..\lib\res0.c ..\..\..\lib\sharedbook.c ..\..\..\lib\smallft.c ..\..\..\lib\synthesis.c ..\..\..\lib\vorbisenc.c ..\..\..\lib\window.c
+         window.c
+         vorbisenc.c
+     1>c:\2013\libogg-1.3.2\lib\modes\psych_44.h(53): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(231): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(248): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(249): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(251): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(258): warning C4244: '初期化中' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(259): warning C4244: '初期化中' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(271): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(272): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(273): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(274): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(276): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(277): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(278): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(282): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(284): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(285): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(286): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(289): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(291): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(292): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(312): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(338): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(345): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(346): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(347): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(348): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(349): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(351): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(354): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(362): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(377): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(383): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(388): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(398): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(403): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(410): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(417): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(429): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(430): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(447): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(529): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(593): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(622): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(659): warning C4244: '初期化中' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(660): warning C4244: '初期化中' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(661): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(717): warning C4244: '関数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(834): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(840): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(842): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(877): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(913): warning C4305: '+=' : 'double' から 'float' へ切り詰めます。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(914): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(967): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(969): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(979): warning C4244: '=' : 'long' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(990): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(1074): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(1090): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisenc.c(1093): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+         synthesis.c
+         smallft.c
+     1>c:\2013\libogg-1.3.2\lib\smallft.c(99): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\smallft.c(100): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\smallft.c(283): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\smallft.c(284): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\smallft.c(853): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\smallft.c(854): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         sharedbook.c
+     1>c:\2013\libogg-1.3.2\lib\sharedbook.c(53): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\sharedbook.c(54): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\sharedbook.c(65): warning C4244: 'return' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\sharedbook.c(161): warning C4244: '初期化中' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\sharedbook.c(168): warning C4127: 条件式が定数です。
+     1>c:\2013\libogg-1.3.2\lib\sharedbook.c(219): warning C4244: '初期化中' : 'long' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\sharedbook.c(220): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\sharedbook.c(239): warning C4244: '初期化中' : 'long' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\sharedbook.c(240): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         res0.c
+     1>c:\2013\libogg-1.3.2\lib\res0.c(423): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\res0.c(443): warning C4244: '*=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         registry.c
+         psy.c
+     1>c:\2013\libogg-1.3.2\lib\psy.c(137): warning C4244: '関数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(139): warning C4244: '関数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(173): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(174): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(175): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(192): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(193): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(217): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(218): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(239): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(254): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(259): warning C4244: '=' : 'int' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(274): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(276): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(277): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(290): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(291): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(296): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(301): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(312): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(325): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(327): warning C4244: '関数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(336): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(348): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(402): warning C4244: '=' : 'const float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(404): warning C4244: '=' : 'const float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(463): warning C4127: 条件式が定数です。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(571): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(739): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(801): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(807): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(814): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(818): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(922): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(953): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(955): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(976): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(978): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(992): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(1021): warning C4244: '初期化中' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(1022): warning C4244: '初期化中' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(1050): warning C4244: '=' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(1128): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(1157): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(1176): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\psy.c(1178): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         mdct.c
+     1>c:\2013\libogg-1.3.2\lib\mdct.c(58): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\mdct.c(66): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\mdct.c(67): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\mdct.c(68): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\mdct.c(69): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\mdct.c(72): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\mdct.c(73): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         mapping0.c
+     1>c:\2013\libogg-1.3.2\lib\mapping0.c(266): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\mapping0.c(312): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\mapping0.c(329): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\mapping0.c(387): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         lsp.c
+     1>c:\2013\libogg-1.3.2\lib\lsp.c(252): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\lsp.c(259): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\lsp.c(276): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\lsp.c(319): warning C4127: 条件式が定数です。
+     1>c:\2013\libogg-1.3.2\lib\lsp.c(350): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\lsp.c(397): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\lsp.c(449): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\lsp.c(452): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         lpc.c
+     1>c:\2013\libogg-1.3.2\lib\lpc.c(130): warning C4244: 'return' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         lookup.c
+         info.c
+     1>c:\2013\libogg-1.3.2\lib\info.c : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\2013\libogg-1.3.2\lib\info.c(47): warning C4244: '=' : 'long' から 'char' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\info.c(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\usr\msvs2013\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>c:\2013\libogg-1.3.2\lib\info.c(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\usr\msvs2013\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>c:\2013\libogg-1.3.2\lib\info.c(70): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\usr\msvs2013\vc\include\string.h(118) : 'strcat' の宣言を確認してください。
+     1>c:\2013\libogg-1.3.2\lib\info.c(71): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\usr\msvs2013\vc\include\string.h(118) : 'strcat' の宣言を確認してください。
+     1>c:\2013\libogg-1.3.2\lib\info.c(93): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\usr\msvs2013\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>c:\2013\libogg-1.3.2\lib\info.c(94): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\usr\msvs2013\vc\include\string.h(118) : 'strcat' の宣言を確認してください。
+     1>c:\2013\libogg-1.3.2\lib\info.c(112): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\usr\msvs2013\vc\include\string.h(112) : 'strcpy' の宣言を確認してください。
+     1>c:\2013\libogg-1.3.2\lib\info.c(113): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\usr\msvs2013\vc\include\string.h(118) : 'strcat' の宣言を確認してください。
+         floor1.c
+     1>c:\2013\libogg-1.3.2\lib\floor1.c(275): warning C4244: '初期化中' : 'const float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\floor1.c(499): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\floor1.c(500): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         floor0.c
+     1>c:\2013\libogg-1.3.2\lib\floor0.c(126): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\floor0.c(137): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         envelope.c
+     1>c:\2013\libogg-1.3.2\lib\envelope.c(48): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\envelope.c(65): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\envelope.c(68): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\envelope.c(127): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\envelope.c(145): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         codebook.c
+     1>c:\2013\libogg-1.3.2\lib\codebook.c(183): warning C4244: '=' : 'long' から 'char' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\codebook.c(192): warning C4244: '=' : 'long' から 'char' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\codebook.c(214): warning C4244: '=' : 'long' から 'char' への変換です。データが失われる可能性があります。
+         block.c
+     1>c:\2013\libogg-1.3.2\lib\block.c(864): warning C4244: '初期化中' : 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\block.c(902): warning C4244: '初期化中' : 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
+         bitrate.c
+     1>c:\2013\libogg-1.3.2\lib\bitrate.c(42): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\bitrate.c(43): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\bitrate.c(44): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\bitrate.c(51): warning C4244: '初期化中' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\bitrate.c(83): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\bitrate.c(88): warning C4244: '初期化中' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\bitrate.c(135): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         コードを生成中...
+         コンパイル中...
+         analysis.c
+         コードを生成中...
+     1>c:\2013\libogg-1.3.2\lib\analysis.c(47): warning C4706: 条件式の比較値は、代入の結果になっています。
+       Lib:
+         C:\usr\msvs2013\VC\bin\Lib.exe /OUT:"C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\libvorbis_static.lib" /NOLOGO Win32\Debug\analysis.obj
+         Win32\Debug\bitrate.obj
+         Win32\Debug\block.obj
+         Win32\Debug\codebook.obj
+         Win32\Debug\envelope.obj
+         Win32\Debug\floor0.obj
+         Win32\Debug\floor1.obj
+         Win32\Debug\info.obj
+         Win32\Debug\lookup.obj
+         Win32\Debug\lpc.obj
+         Win32\Debug\lsp.obj
+         Win32\Debug\mapping0.obj
+         Win32\Debug\mdct.obj
+         Win32\Debug\psy.obj
+         Win32\Debug\registry.obj
+         Win32\Debug\res0.obj
+         Win32\Debug\sharedbook.obj
+         Win32\Debug\smallft.obj
+         Win32\Debug\synthesis.obj
+         Win32\Debug\vorbisenc.obj
+         Win32\Debug\window.obj
+         libvorbis_static.vcxproj -> C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\libvorbis_static.lib
+     1>プロジェクト "C:\2013\libogg-1.3.2\win32\VS2010\libvorbis\libvorbis_static.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.35

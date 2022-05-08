@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>NobuBGMConvert</ProjectName>
+    <ProjectGuid>{4419527D-BCB6-4908-9ED4-40C51ACFE8FC}</ProjectGuid>
+    <RootNamespace>libapplamestatic</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..;../mpglib;../libmp3lame;../include;../;../NobuBgmCnv;../NobuBgmCnv/include;../wma2wav;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;HAVE_MPGLIB;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\新しいフォルダー\NobuBgmConvert\NobuBgmConvert\NobuBgmCnvLame\output\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\NobuBgmCnv\AtslwToKvs.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\BgmToWav.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\BgmToWma.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\DatToMp2.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\G1lToKvs.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\KvsToOgg.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\LameDecodeIF.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\LameIF.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\NobuMain.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\OggToKvs.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\OggToWav.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\SrcToMp3.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\VfpToKvs.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\WmaToWavIF.cpp" />
+    <ClCompile Include="..\wma2wav\AbstractSink.cpp" />
+    <ClCompile Include="..\wma2wav\Main.cpp" />
+    <ClCompile Include="..\wma2wav\RawWriter.cpp" />
+    <ClCompile Include="..\wma2wav\stdafx.cpp" />
+    <ClCompile Include="..\wma2wav\Utils.cpp" />
+    <ClCompile Include="..\wma2wav\WaveWriter.cpp" />
+    <ClCompile Include="..\wma2wav\wma2wav.cpp" />
+    <ClCompile Include="..\wma2wav\WmaReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NobuBgmCnv\AtslwToKvs.h" />
+    <ClInclude Include="..\NobuBgmCnv\BgmToWav.h" />
+    <ClInclude Include="..\NobuBgmCnv\BgmToWma.h" />
+    <ClInclude Include="..\NobuBgmCnv\DatToMp2.h" />
+    <ClInclude Include="..\NobuBgmCnv\G1lToKvs.h" />
+    <ClInclude Include="..\NobuBgmCnv\KvsToOgg.h" />
+    <ClInclude Include="..\NobuBgmCnv\LameIF.h" />
+    <ClInclude Include="..\NobuBgmCnv\NobuMain.h" />
+    <ClInclude Include="..\NobuBgmCnv\OggToKvs.h" />
+    <ClInclude Include="..\NobuBgmCnv\OggToWav.h" />
+    <ClInclude Include="..\NobuBgmCnv\SrcToMp3.h" />
+    <ClInclude Include="..\NobuBgmCnv\VfpToKvs.h" />
+    <ClInclude Include="..\NobuBgmCnv\Wma2WavIF.h" />
+    <ClInclude Include="..\wma2wav\AbstractSink.h" />
+    <ClInclude Include="..\wma2wav\RawWriter.h" />
+    <ClInclude Include="..\wma2wav\stdafx.h" />
+    <ClInclude Include="..\wma2wav\targetver.h" />
+    <ClInclude Include="..\wma2wav\Utils.h" />
+    <ClInclude Include="..\wma2wav\WaveWriter.h" />
+    <ClInclude Include="..\wma2wav\wma2wav.h" />
+    <ClInclude Include="..\wma2wav\WmaReader.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app lame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\NobuBgmCnv\lib\ogg\libogg_static_vc2013xp.lib" />
+    <Library Include="..\NobuBgmCnv\lib\ogg\libvorbisfile_static_vc2013xp.lib" />
+    <Library Include="..\NobuBgmCnv\lib\ogg\libvorbis_static_vc2013xp.lib" />
+    <Library Include="..\output\Release\libappmain-static.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\NobuBgmCnv\lib\ogg\vc2008以外はlibを自分でコンパイル.mht">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

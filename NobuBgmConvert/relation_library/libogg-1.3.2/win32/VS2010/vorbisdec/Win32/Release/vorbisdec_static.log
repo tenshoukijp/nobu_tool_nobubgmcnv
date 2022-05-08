@@ -1,0 +1,10 @@
+﻿  decoder_example.c
+..\..\..\examples\decoder_example.c(79): warning C4127: 条件式が定数です。
+..\..\..\examples\decoder_example.c(219): warning C4127: 条件式が定数です。
+..\..\..\examples\decoder_example.c(251): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+..\..\..\examples\decoder_example.c(264): warning C4244: '=' : 'int' から 'ogg_int16_t' への変換です。データが失われる可能性があります。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\usr\koei\Tenshouki95\dllwrap\NobuBgmConvert\VS2013版\VS2013版\NobuBgmConvert\NobuBgmConvert\libogg-1.3.2\win32\VS2010\Win32\Release\vorbisdec.exe) does not match the Linker's OutputFile property value (C:\usr\koei\Tenshouki95\dllwrap\NobuBgmConvert\VS2013版\VS2013版\NobuBgmConvert\NobuBgmConvert\libogg-1.3.2\win32\VS2010\Win32\Release\vorbisdec_static.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(vorbisdec) does not match the Linker's OutputFile property value (vorbisdec_static). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  コード生成しています。
+  コード生成が終了しました。
+  vorbisdec_static.vcxproj -> C:\usr\koei\Tenshouki95\dllwrap\NobuBgmConvert\VS2013版\VS2013版\NobuBgmConvert\NobuBgmConvert\libogg-1.3.2\win32\VS2010\Win32\Release\vorbisdec.exe

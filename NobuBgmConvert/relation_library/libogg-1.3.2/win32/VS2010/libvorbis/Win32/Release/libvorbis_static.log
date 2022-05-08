@@ -1,0 +1,26 @@
+﻿  analysis.c
+  bitrate.c
+  block.c
+  codebook.c
+  envelope.c
+  floor0.c
+  floor1.c
+  info.c
+..\..\..\lib\info.c : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  lookup.c
+  lpc.c
+  lsp.c
+  mapping0.c
+  mdct.c
+  psy.c
+  registry.c
+  res0.c
+  sharedbook.c
+  smallft.c
+  synthesis.c
+  vorbisenc.c
+  コードを生成中...
+  コンパイル中...
+  window.c
+  コードを生成中...
+  libvorbis_static.vcxproj -> C:\usr\koei\Tenshouki95\dllwrap\NobuBgmConvert\VS2013版\VS2013版\NobuBgmConvert\NobuBgmConvert\libogg-1.3.2\win32\VS2010\Win32\Release\libvorbis_static.lib

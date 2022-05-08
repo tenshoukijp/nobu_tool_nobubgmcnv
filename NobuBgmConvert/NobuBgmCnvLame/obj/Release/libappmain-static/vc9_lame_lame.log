@@ -1,0 +1,56 @@
+﻿  brhist.c
+  console.c
+  get_audio.c
+  lametime.c
+  lame_main.c
+  main.c
+  parse.c
+  timestatus.c
+  Microsoft (R) Windows (R) Resource Compiler Version 6.1.7600.16385
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+C:\usr\msvs2013\VC\include\sal.h(2886): warning RC4005: '__useHeader' : redefinition
+  
+C:\usr\msvs2013\VC\include\sal.h(2896): warning RC4005: '__on_failure' : redefinition
+  
+libmp3lame-static.lib(tabinit.obj) : warning LNK4006: _pnts は libmpghip-static.lib(tabinit.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(tabinit.obj) : warning LNK4006: _make_decode_tables は libmpghip-static.lib(tabinit.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer3.obj) : warning LNK4006: _hip_init_tables_layer3 は libmpghip-static.lib(layer3.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer3.obj) : warning LNK4006: _decode_layer3_sideinfo は libmpghip-static.lib(layer3.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer3.obj) : warning LNK4006: _decode_layer3_frame は libmpghip-static.lib(layer3.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer3.obj) : warning LNK4006: _layer3_audiodata_precedesframes は libmpghip-static.lib(layer3.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer2.obj) : warning LNK4006: _alloc_0 は libmpghip-static.lib(layer2.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer2.obj) : warning LNK4006: _alloc_1 は libmpghip-static.lib(layer2.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer2.obj) : warning LNK4006: _alloc_2 は libmpghip-static.lib(layer2.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer2.obj) : warning LNK4006: _alloc_3 は libmpghip-static.lib(layer2.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer2.obj) : warning LNK4006: _alloc_4 は libmpghip-static.lib(layer2.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer2.obj) : warning LNK4006: _hip_init_tables_layer2 は libmpghip-static.lib(layer2.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer2.obj) : warning LNK4006: _decode_layer2_sideinfo は libmpghip-static.lib(layer2.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer2.obj) : warning LNK4006: _decode_layer2_frame は libmpghip-static.lib(layer2.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer1.obj) : warning LNK4006: _hip_init_tables_layer1 は libmpghip-static.lib(layer1.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer1.obj) : warning LNK4006: _decode_layer1_sideinfo は libmpghip-static.lib(layer1.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(layer1.obj) : warning LNK4006: _decode_layer1_frame は libmpghip-static.lib(layer1.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(interface.obj) : warning LNK4006: _InitMP3 は libmpghip-static.lib(interface.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(interface.obj) : warning LNK4006: _decodeMP3 は libmpghip-static.lib(interface.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(interface.obj) : warning LNK4006: _ExitMP3 は libmpghip-static.lib(interface.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(interface.obj) : warning LNK4006: _decodeMP3_unclipped は libmpghip-static.lib(interface.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(interface.obj) : warning LNK4006: _remove_buf は libmpghip-static.lib(interface.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(interface.obj) : warning LNK4006: _audiodata_precedesframes は libmpghip-static.lib(interface.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(interface.obj) : warning LNK4006: _decode_reset は libmpghip-static.lib(interface.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(decode_i386.obj) : warning LNK4006: _synth_1to1_mono は libmpghip-static.lib(decode_i386.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(decode_i386.obj) : warning LNK4006: _synth_1to1 は libmpghip-static.lib(decode_i386.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(decode_i386.obj) : warning LNK4006: _synth_1to1_mono_unclipped は libmpghip-static.lib(decode_i386.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(decode_i386.obj) : warning LNK4006: _synth_1to1_unclipped は libmpghip-static.lib(decode_i386.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(dct64_i386.obj) : warning LNK4006: _dct64 は libmpghip-static.lib(dct64_i386.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(common.obj) : warning LNK4006: _tabsel_123 は libmpghip-static.lib(common.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(common.obj) : warning LNK4006: _freqs は libmpghip-static.lib(common.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(common.obj) : warning LNK4006: _head_check は libmpghip-static.lib(common.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(common.obj) : warning LNK4006: _decode_header は libmpghip-static.lib(common.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(common.obj) : warning LNK4006: _getbits は libmpghip-static.lib(common.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(common.obj) : warning LNK4006: _getbits_fast は libmpghip-static.lib(common.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(common.obj) : warning LNK4006: _get_leq_8_bits は libmpghip-static.lib(common.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(common.obj) : warning LNK4006: _get_leq_16_bits は libmpghip-static.lib(common.obj) で定義されています。2 つ目以降の定義は無視されます。
+libmp3lame-static.lib(common.obj) : warning LNK4006: _set_pointer は libmpghip-static.lib(common.obj) で定義されています。2 つ目以降の定義は無視されます。
+  vc9_lame_lame.vcxproj -> C:\usr\koei\tenshouki95\dllwrap\NobuBgmConvert\NobuBgmCnvLame\vc_solution\..\output\Release\libappmain-static.lib

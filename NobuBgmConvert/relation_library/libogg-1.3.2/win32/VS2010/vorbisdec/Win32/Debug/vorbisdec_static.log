@@ -1,0 +1,20 @@
+﻿2015/05/19 12:28:16 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\2013\libogg-1.3.2\win32\VS2010\vorbisdec\vorbisdec_static.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\usr\msvs2013\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\..\libogg\include /I"..\..\..\..\libogg-1.2.0\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\examples\decoder_example.c
+         decoder_example.c
+     1>c:\2013\libogg-1.3.2\examples\decoder_example.c(79): warning C4127: 条件式が定数です。
+     1>c:\2013\libogg-1.3.2\examples\decoder_example.c(219): warning C4127: 条件式が定数です。
+     1>c:\2013\libogg-1.3.2\examples\decoder_example.c(251): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\examples\decoder_example.c(264): warning C4244: '=' : 'int' から 'ogg_int16_t' への変換です。データが失われる可能性があります。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\vorbisdec.exe) does not match the Linker's OutputFile property value (C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\vorbisdec_static.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(vorbisdec) does not match the Linker's OutputFile property value (vorbisdec_static). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\usr\msvs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\vorbisdec_static.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\libogg\win32\VS2010\Win32\Debug /LIBPATH:..\Win32\Debug /LIBPATH:"..\..\..\..\libogg-1.2.0\win32\VS2010\Win32\Debug" /LIBPATH:..\..\..\..\ogg\win32\VS2010\Win32\Debug /LIBPATH:..\..\..\..\..\..\..\core\ogg\libogg\win32\VS2010\Win32\Debug libogg_static.lib libvorbis_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\vorbisdec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\vorbisdec.lib" /MACHINE:X86 /SAFESEH Win32\Debug\decoder_example.obj
+         "C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\libvorbis_static.lib"
+     1>LINK : fatal error LNK1104: ファイル 'libogg_static.lib' を開くことができません。
+     1>プロジェクト "C:\2013\libogg-1.3.2\win32\VS2010\vorbisdec\vorbisdec_static.vcxproj" (Rebuild ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.55

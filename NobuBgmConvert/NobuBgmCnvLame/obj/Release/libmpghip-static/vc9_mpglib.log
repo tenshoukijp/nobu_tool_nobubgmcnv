@@ -1,0 +1,11 @@
+﻿  Performing Custom Build Step on configMS
+          1 個のファイルをコピーしました。
+  common.c
+  dct64_i386.c
+  decode_i386.c
+  interface.c
+  layer1.c
+  layer2.c
+  layer3.c
+  tabinit.c
+  vc9_mpglib.vcxproj -> C:\usr\koei\tenshouki95\dllwrap\NobuBgmConvert\NobuBgmCnvLame\vc_solution\..\output\Release\libmpghip-static.lib

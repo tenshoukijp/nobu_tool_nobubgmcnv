@@ -1,0 +1,33 @@
+﻿2015/05/19 12:30:48 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\2013\libogg-1.3.2\win32\VS2010\libvorbisfile\libvorbisfile_static.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\usr\msvs2013\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\..\libogg\include /I"..\..\..\..\libogg-1.2.0\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBVORBISFILE_EXPORTS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\lib\vorbisfile.c
+         vorbisfile.c
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(259): warning C4244: '関数' : 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(273): warning C4244: '=' : 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(545): warning C4244: 'return' : 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(566): warning C4244: 'return' : 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(569): warning C4244: 'return' : 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(579): warning C4244: 'return' : 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(641): warning C4244: 'return' : 'ogg_int64_t' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(874): warning C4244: '関数' : 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(1012): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\usr\msvs2013\vc\include\stdio.h(211) : 'fopen' の宣言を確認してください。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(1118): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(1119): warning C4244: 'return' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(1123): warning C4244: 'return' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(1151): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(1764): warning C4244: '=' : 'ogg_int64_t' から 'long' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(1801): warning C4244: '初期化中' : 'double' から 'ogg_int64_t' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(1831): warning C4244: '初期化中' : 'double' から 'ogg_int64_t' への変換です。データが失われる可能性があります。
+     1>c:\2013\libogg-1.3.2\lib\vorbisfile.c(2167): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\libvorbisfile.lib) does not match the Library's OutputFile property value (C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\libvorbisfile_static.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(libvorbisfile) does not match the Library's OutputFile property value (libvorbisfile_static). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\usr\msvs2013\VC\bin\Lib.exe /OUT:"C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\libvorbisfile_static.lib" /NOLOGO Win32\Debug\vorbisfile.obj
+         libvorbisfile_static.vcxproj -> C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\libvorbisfile.lib
+     1>プロジェクト "C:\2013\libogg-1.3.2\win32\VS2010\libvorbisfile\libvorbisfile_static.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.18

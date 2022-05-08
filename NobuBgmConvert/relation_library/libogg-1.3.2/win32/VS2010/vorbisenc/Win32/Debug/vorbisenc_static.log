@@ -1,0 +1,18 @@
+﻿2015/05/19 12:28:17 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\2013\libogg-1.3.2\win32\VS2010\vorbisenc\vorbisenc_static.vcxproj" (Rebuild ターゲット)。
+     1>ClCompile:
+         C:\usr\msvs2013\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\..\libogg\include /I"..\..\..\..\libogg-1.2.0\include" /I..\..\..\..\ogg\include /I..\..\..\..\..\..\..\core\ogg\libogg\include /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\examples\encoder_example.c
+         encoder_example.c
+     1>c:\2013\libogg-1.3.2\examples\encoder_example.c(128): warning C4305: '関数' : 'double' から 'float' へ切り詰めます。
+     1>c:\2013\libogg-1.3.2\examples\encoder_example.c(147): warning C4244: '関数' : 'time_t' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\vorbisenc.exe) does not match the Linker's OutputFile property value (C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\vorbisenc_static.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(vorbisenc) does not match the Linker's OutputFile property value (vorbisenc_static). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\usr\msvs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\vorbisenc_static.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\libogg\win32\VS2010\Win32\Debug /LIBPATH:..\Win32\Debug /LIBPATH:"..\..\..\..\libogg-1.2.0\win32\VS2010\Win32\Debug" /LIBPATH:..\..\..\..\ogg\win32\VS2010\Win32\Debug /LIBPATH:..\..\..\..\..\..\..\core\ogg\libogg\win32\VS2010\Win32\Debug libogg_static.lib libvorbis_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\vorbisenc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\vorbisenc.lib" /MACHINE:X86 /SAFESEH Win32\Debug\encoder_example.obj
+         "C:\2013\libogg-1.3.2\win32\VS2010\Win32\Debug\libvorbis_static.lib"
+     1>LINK : fatal error LNK1104: ファイル 'libogg_static.lib' を開くことができません。
+     1>プロジェクト "C:\2013\libogg-1.3.2\win32\VS2010\vorbisenc\vorbisenc_static.vcxproj" (Rebuild ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.45

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="WmaToWav">
+      <UniqueIdentifier>{6bf9e398-b3f1-41ca-acbb-34a80d47b35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WmaToWav\Source Files">
+      <UniqueIdentifier>{270db1f9-f66b-40aa-af84-1c355e9f4702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WmaToWav\Header Files">
+      <UniqueIdentifier>{840a0d31-0a22-45e9-9edf-a12bdf88f931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{60de3070-43e0-4246-a92e-3d45f7810e94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\NobuBgmCnv\AtslwToKvs.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\BgmToWav.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\BgmToWma.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\DatToMp2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\G1lToKvs.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\KvsToOgg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\LameDecodeIF.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\LameIF.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\NobuMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\OggToWav.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\SrcToMp3.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\VfpToKvs.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\WmaToWavIF.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wma2wav\AbstractSink.cpp">
+      <Filter>WmaToWav\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wma2wav\Main.cpp">
+      <Filter>WmaToWav\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wma2wav\RawWriter.cpp">
+      <Filter>WmaToWav\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wma2wav\stdafx.cpp">
+      <Filter>WmaToWav\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wma2wav\Utils.cpp">
+      <Filter>WmaToWav\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wma2wav\WaveWriter.cpp">
+      <Filter>WmaToWav\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wma2wav\wma2wav.cpp">
+      <Filter>WmaToWav\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\wma2wav\WmaReader.cpp">
+      <Filter>WmaToWav\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\OggToKvs.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NobuBgmCnv\AtslwToKvs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\BgmToWav.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\BgmToWma.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\DatToMp2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\G1lToKvs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\KvsToOgg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\LameIF.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\NobuMain.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\OggToWav.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\SrcToMp3.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\VfpToKvs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\Wma2WavIF.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wma2wav\AbstractSink.h">
+      <Filter>WmaToWav\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wma2wav\RawWriter.h">
+      <Filter>WmaToWav\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wma2wav\stdafx.h">
+      <Filter>WmaToWav\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wma2wav\targetver.h">
+      <Filter>WmaToWav\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wma2wav\Utils.h">
+      <Filter>WmaToWav\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wma2wav\WaveWriter.h">
+      <Filter>WmaToWav\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wma2wav\wma2wav.h">
+      <Filter>WmaToWav\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\wma2wav\WmaReader.h">
+      <Filter>WmaToWav\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\OggToKvs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app lame.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\output\Release\libappmain-static.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="..\NobuBgmCnv\lib\ogg\libogg_static_vc2013xp.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="..\NobuBgmCnv\lib\ogg\libvorbis_static_vc2013xp.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="..\NobuBgmCnv\lib\ogg\libvorbisfile_static_vc2013xp.lib">
+      <Filter>lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\NobuBgmCnv\lib\ogg\vc2008以外はlibを自分でコンパイル.mht">
+      <Filter>lib</Filter>
+    </None>
+  </ItemGroup>
+</Project>
