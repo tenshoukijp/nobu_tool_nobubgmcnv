@@ -58,12 +58,14 @@ int Ktsl2asbinToKvs(char *szKtsl2asbinFileName) {
 				// ŽŸ‚Ìƒtƒ@ƒCƒ‹‚ðŒ©‚Â‚¯‚½
 				if (pdata[pix] == 'K' && pdata[pix + 1] == 'O' && pdata[pix + 2] == 'V' && pdata[pix + 3] == 'S') {
 
-					if (!kovs.empty() && kovs[0] == 'K' && kovs[1] == 'O' && kovs[2] == 'V' && kovs[3] == 'S') {
+					if (!kovs.empty()) {
 						char newfilename[1024] = "";
 						GetSequenceKvsFileName(newfilename, szKtsl2asbinFileName, find_count);
-						ofstream fout(newfilename, ios::out | ios::binary);
-						fout.write(&kovs[0], kovs.size());
-						fout.close();
+						if (kovs[0] == 'K' && kovs[1] == 'O' && kovs[2] == 'V' && kovs[3] == 'S') {
+							ofstream fout(newfilename, ios::out | ios::binary);
+							fout.write(&kovs[0], kovs.size());
+							fout.close();
+						}
 
 						kovs.clear();
 

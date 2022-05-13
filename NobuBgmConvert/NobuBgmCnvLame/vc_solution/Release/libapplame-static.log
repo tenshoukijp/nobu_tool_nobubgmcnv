@@ -1,0 +1,6 @@
+﻿  Ktsl2asbinToKvs.cpp
+..\NobuBgmCnv\Ktsl2asbinToKvs.cpp(49): warning C4244: '初期化中' : '__int64' から 'unsigned int' への変換です。データが失われる可能性があります。
+  libvorbisfile_static_vc2013xp.lib(vorbisfile.obj) : MSIL .netmodule または /GL を伴ってコンパイルされたモジュールが見つかりました。/LTCG を使用して再開始してください。リンカーのパフォーマンスを向上させるためには、コマンドラインに /LTCG を追加してください。
+  コード生成しています。
+  コード生成が終了しました。
+  libapplame-static.vcxproj -> G:\repogitory_jp\nobu_tool_nobubgmcnv\NobuBgmConvert\NobuBgmCnvLame\vc_solution\Release\NobuBGMConvert.exe
