@@ -13,6 +13,7 @@
 #include "BgmToWav.h"
 #include "DatToMp2.h"
 #include "OggToKvs.h"
+#include "Ktsl2asbinToKvs.h"
 
 #include "LameIF.h"
 #include "Wma2WavIF.h"
@@ -37,9 +38,28 @@ int main(int argc, char *argv[]) {
 
 		WIN32_FIND_DATA ffd;
 
+		// 信長の野望・新生のBGM系
+		HANDLE hFileList = FindFirstFile("*.ktsl2stbin", &ffd);
+		// 存在した場合、変換対象とする。
+		if (hFileList != INVALID_HANDLE_VALUE) {
+			do {
+				Ktsl2asbinToKvs(ffd.cFileName);
+			} while (FindNextFile(hFileList, &ffd)); // 次の.vpsへ
+		}
+		FindClose(hFileList); // ハンドル終了
+
+		// 信長の野望・新生のVOICE系
+		hFileList = FindFirstFile("*.ktsl2asbin", &ffd);
+		// 存在した場合、変換対象とする。
+		if (hFileList != INVALID_HANDLE_VALUE) {
+			do {
+				Ktsl2asbinToKvs(ffd.cFileName);
+			} while (FindNextFile(hFileList, &ffd)); // 次の.vpsへ
+		}
+		FindClose(hFileList); // ハンドル終了
 
 		// 信長の野望・創造のボイス系
-		HANDLE hFileList = FindFirstFile("*.vfp", &ffd);
+		hFileList = FindFirstFile("*.vfp", &ffd);
 		// 存在した場合、変換対象とする。
 		if ( hFileList != INVALID_HANDLE_VALUE ) {
 			do {

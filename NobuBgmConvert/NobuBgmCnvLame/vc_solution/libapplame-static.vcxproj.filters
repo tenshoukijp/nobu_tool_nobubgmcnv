@@ -93,6 +93,9 @@
     <ClCompile Include="..\NobuBgmCnv\OggToKvs.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="..\NobuBgmCnv\Ktsl2asbinToKvs.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\NobuBgmCnv\AtslwToKvs.h">
@@ -159,6 +162,9 @@
       <Filter>WmaToWav\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\NobuBgmCnv\OggToKvs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NobuBgmCnv\Ktsl2asbinToKvs.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>

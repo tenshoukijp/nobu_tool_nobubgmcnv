@@ -21,12 +21,12 @@
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v120_xp</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v120</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -102,6 +102,7 @@
     <ClCompile Include="..\NobuBgmCnv\BgmToWma.cpp" />
     <ClCompile Include="..\NobuBgmCnv\DatToMp2.cpp" />
     <ClCompile Include="..\NobuBgmCnv\G1lToKvs.cpp" />
+    <ClCompile Include="..\NobuBgmCnv\Ktsl2asbinToKvs.cpp" />
     <ClCompile Include="..\NobuBgmCnv\KvsToOgg.cpp" />
     <ClCompile Include="..\NobuBgmCnv\LameDecodeIF.cpp" />
     <ClCompile Include="..\NobuBgmCnv\LameIF.cpp" />
@@ -126,6 +127,7 @@
     <ClInclude Include="..\NobuBgmCnv\BgmToWma.h" />
     <ClInclude Include="..\NobuBgmCnv\DatToMp2.h" />
     <ClInclude Include="..\NobuBgmCnv\G1lToKvs.h" />
+    <ClInclude Include="..\NobuBgmCnv\Ktsl2asbinToKvs.h" />
     <ClInclude Include="..\NobuBgmCnv\KvsToOgg.h" />
     <ClInclude Include="..\NobuBgmCnv\LameIF.h" />
     <ClInclude Include="..\NobuBgmCnv\NobuMain.h" />

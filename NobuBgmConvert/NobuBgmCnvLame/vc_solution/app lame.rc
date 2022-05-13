@@ -53,8 +53,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,9,4
- PRODUCTVERSION 1,0,9,4
+ FILEVERSION 1,1,0,1
+ PRODUCTVERSION 1,1,0,1
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -70,12 +70,12 @@ BEGIN
         BLOCK "041104b0"
         BEGIN
             VALUE "FileDescription", "信長シリーズ BGM コンバートツール"
-            VALUE "FileVersion", "1.0.9.4"
+            VALUE "FileVersion", "1.1.0.1"
             VALUE "InternalName", "NobuBgmCnv"
-            VALUE "LegalCopyright", "Copyright (C) 2016 天翔記.jp powered by LAME"
+            VALUE "LegalCopyright", "Copyright (C) 2016-2022 天翔記.jp powered by LAME"
             VALUE "OriginalFilename", "NobuBgmCnv.exe"
             VALUE "ProductName", "信長シリーズ BGM コンバートツール"
-            VALUE "ProductVersion", "1.0.9.4"
+            VALUE "ProductVersion", "1.1.0.1"
         END
     END
     BLOCK "VarFileInfo"
