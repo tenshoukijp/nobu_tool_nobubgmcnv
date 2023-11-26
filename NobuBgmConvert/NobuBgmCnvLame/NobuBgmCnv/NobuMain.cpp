@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
 
 		WIN32_FIND_DATA ffd;
 
-		// 信長の野望・新生のBGM系
+		// 信長の野望・大志のBGM系
 		HANDLE hFileList = FindFirstFile("*.ktsl2stbin", &ffd);
 		// 存在した場合、変換対象とする。
 		if (hFileList != INVALID_HANDLE_VALUE) {
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
 		}
 		FindClose(hFileList); // ハンドル終了
 
-		// 信長の野望・新生のVOICE系
+		// 信長の野望・大志のVOICE系
 		hFileList = FindFirstFile("*.ktsl2asbin", &ffd);
 		// 存在した場合、変換対象とする。
 		if (hFileList != INVALID_HANDLE_VALUE) {
